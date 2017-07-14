@@ -1,13 +1,16 @@
-# Node.js Express Boilerplate
-Node.js Express Boilerplate provides you with an initial server to help you get
+# Node.js Express
+Node.js Express provides you with an initial server to help you get
 underway with your projects.
 
 ## What's Included?
 Aside from Express support, this package also has functionality for rendering
-`pug` (jade) views and compiling `sass` to CSS through the use of gulp.
+`pug` (jade) views and compiling `sass` to CSS through the use of gulp. Bootstrap is relied upon
+for quick and easy UI components and styles. jQuery is also comes along to support
+the Bootstrap js components.
+
 
 ## Getting Started
-To get started using Node.js Express Boilerplate, you will need to run the
+To get started using Node.js Express, you will need to run the
 following commands:
 
 ```
@@ -17,7 +20,7 @@ $ npm install
 ```
 
 Sass stylesheets located within the `sass` directory, can be compiled by running
-either `gulp` (which will also start watching the directory) or `gulp sass`.
+either `gulp watch` (which will also start watching the directory) or `gulp sass`.
 
 Once all the packages are installed, you can start the server by running `npm
 start`. This will start the server listening on port `3000` unless specified
@@ -89,7 +92,6 @@ $ now
 After that you can change the alias of your test deploy by
 
 ```
-$ now alias [URL of previous deploy] [new name]
 $ now alias https://zaplabs-hackathon-boilerplate-kcfmuyuarz.now.sh straight-outta-compliance
 ```
 
