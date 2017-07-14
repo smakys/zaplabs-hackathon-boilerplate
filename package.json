@@ -1,0 +1,29 @@
+{
+  "name": "zaplabs-hackathon-boilerplate",
+  "version": "0.1.0",
+  "description": "ZapLabs Hackathon Boilerplate",
+  "main": "server.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smakys/zaplabs-hackathon-boilerplate.git"
+  },
+  "homepage": "https://github.com/smakys/zaplabs-hackathon-boilerplate#readme",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "bootstrap-sass": "^3.3.7",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "jquery": "^3.2.1",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-alpha1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}

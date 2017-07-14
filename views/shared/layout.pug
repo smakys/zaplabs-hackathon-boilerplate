@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    block head
+      include ./head.pug
+
+  body
+    header
+      block header
+        include ./header.pug
+    section
+      block content
+
+    footer
+      block footer
+        include ./footer.pug
+      script(src="/js/jquery.js")
+      script(src="/js/bootstrap.js")
+      script(src="/js/global.js")
+
