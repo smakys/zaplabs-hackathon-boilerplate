@@ -79,11 +79,13 @@ example of how your views could be laid out.
 ## Deploying with "now"
 If you want an easy way to make a deploy to a server. The now service is quick an easy.
 
-First step is to download the desktop client and then follow the instructions for the now-cli.
+First step is to download the now-cli
 
-https://zeit.co/docs/getting-started/installing-now
+```
+npm install -g now
+```
 
-Once you have the now-cli installed just run the follow command:
+Once you have the now-cli installed just run the follow command and it should ask for an email. This will only happen once.
 
 ```
 $ now
