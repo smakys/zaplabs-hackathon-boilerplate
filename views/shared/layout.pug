@@ -7,7 +7,22 @@ html
   body
     header
       block header
-        include ./header.pug
+        nav.navbar.navbar-inverse.navbar-fixed-top
+          .container-fluid
+            .navbar-header
+              button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-controls='navbar')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              a.navbar-brand(href='#') ZapLabs
+            #navbar.navbar-collapse.collapse
+              ul.nav.navbar-nav.navbar-right
+                li
+                  a(href='#') Dashboard
+                li
+                  a(href='#') Settings
+
     section
       block content
 

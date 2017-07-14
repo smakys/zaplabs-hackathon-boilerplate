@@ -26,6 +26,28 @@ body {
   border: 0;
 }
 
+.navbar-inverse {
+  background-color: #66aef3;
+
+  .navbar-brand {
+    color: #fff;
+
+    &:hover {
+      color: #333;
+    }
+  }
+
+  .navbar-nav > li > a {
+    color: #fff;
+
+    &:hover {
+      color: #333;
+    }
+  }
+}
+
+
+
 /*
  * Sidebar
  */
